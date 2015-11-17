@@ -622,4 +622,81 @@ body {
       .main-body .body-container .form-container .midwidth-container {
         width: 100%; }
       .main-body .body-container .form-container .quarterwidth-container {
+        width: 48%; } }
+  @media screen and (max-width: 950px) {
+    .main-body .body-container {
+      width: 80%; }
+      .main-body .body-container .form-container .fullwidth-container {
+        width: 100%; }
+      .main-body .body-container .form-container .midwidth-container {
+        width: 100%; }
+      .main-body .body-container .form-container .quarterwidth-container {
         width: 100%; } }
+
+html, body {
+  height: 100%; }
+
+.login-body {
+  background-image: url(../images/login_background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .login-body .login-container {
+    width: 429px;
+    background-color: white;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.5); }
+    .login-body .login-container .panel-headings {
+      text-align: center;
+      margin-top: -150px;
+      margin-bottom: 80px; }
+      .login-body .login-container .panel-headings img {
+        vertical-align: top; }
+      .login-body .login-container .panel-headings p {
+        display: inline-block;
+        color: white;
+        font-family: "ProximaReg", sans-serif;
+        font-size: 40px;
+        margin-top: 25px;
+        padding-left: 20px; }
+    .login-body .login-container form .form-elements-container {
+      width: 80%;
+      margin: 0 auto;
+      margin-bottom: 20px; }
+      .login-body .login-container form .form-elements-container p {
+        font-family: "ProximaReg", sans-serif;
+        font-size: 20px;
+        color: #595969;
+        margin-bottom: 5px; }
+      .login-body .login-container form .form-elements-container input[type=text] {
+        width: 100%;
+        padding: 10px 5px;
+        margin: 0px 0;
+        color: #595969;
+        font-family: "ProximaReg", sans-serif;
+        font-size: 16px;
+        border-radius: 10px;
+        border: 1px solid #C9C9C9; }
+      .login-body .login-container form .form-elements-container input[type=password] {
+        width: 100%;
+        padding: 10px 5px;
+        margin: 0px 0;
+        color: #595969;
+        font-family: "ProximaReg", sans-serif;
+        font-size: 16px;
+        border-radius: 10px;
+        border: 1px solid #C9C9C9; }
+    .login-body .login-container form .button-container {
+      text-align: center; }
+      .login-body .login-container form .button-container input[type=submit] {
+        border-radius: 45px;
+        border: 2px solid #C75C64;
+        background-color: transparent;
+        font-family: "ProximaReg", sans-serif;
+        color: #C75C64;
+        font-size: 16px;
+        padding: 10px 40px;
+        margin: 20px 0; }
